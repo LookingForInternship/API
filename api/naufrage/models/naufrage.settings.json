@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "naufrages",
+  "info": {
+    "name": "Naufrage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom_bateau": {
+      "type": "string"
+    },
+    "lien_wikipedia": {
+      "type": "string"
+    },
+    "pays": {
+      "type": "string"
+    },
+    "jour_du_naufrage": {
+      "type": "date"
+    },
+    "lieu": {
+      "type": "string"
+    }
+  }
+}

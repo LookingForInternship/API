@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/naufrages",
+      "handler": "naufrage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/naufrages/count",
+      "handler": "naufrage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/naufrages/:id",
+      "handler": "naufrage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/naufrages",
+      "handler": "naufrage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/naufrages/:id",
+      "handler": "naufrage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/naufrages/:id",
+      "handler": "naufrage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

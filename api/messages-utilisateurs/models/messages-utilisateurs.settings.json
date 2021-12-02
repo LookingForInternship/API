@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "naufrages",
+  "collectionName": "messages_utilisateurs",
   "info": {
-    "name": "Naufrage",
+    "name": "Messages utilisateurs",
     "description": ""
   },
   "options": {
@@ -12,23 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nom_bateau": {
+    "mail": {
       "type": "string"
     },
-    "lien_wikipedia": {
-      "type": "string"
-    },
-    "pays": {
-      "type": "string"
-    },
-    "jour_du_naufrage": {
+    "date_naufrage": {
       "type": "date"
     },
-    "lieu": {
-      "type": "string"
+    "message": {
+      "type": "text"
     },
-    "nb_morts": {
-      "type": "integer"
+    "nom_naufrage": {
+      "type": "string"
     }
   }
 }
